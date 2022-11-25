@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FlexBlog</title>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="preconnect" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.min.css">
+  <link rel="preload" href="./css/style.min.css" as="style">
 </head>
 
 <body>
@@ -29,7 +29,7 @@
         <ul>
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#produtos">Produtos</a></li>
-          <li><a href="#precos">Preços</a></li>
+          <li><a href="#preco">Preços</a></li>
           <li><a href="#qualidade">Qualidade</a></li>
         </ul>
       </nav>
@@ -39,7 +39,7 @@
   <h1 class="introducao">Novos valores e<br> Propriedades de CSS</h1>
 
   <section class="sobre" id="sobre">
-    <div class="sobre-info">
+    <div class="sobre-info ">
       <h1>Sobre</h1>
       <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
       <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
@@ -70,7 +70,7 @@
     </div>
   </section>
 
-  <section class="preco" id="precos">
+  <section class="preco" id="preco">
     <div class="preco-item">
       <h1>Cobre</h1>
       <span><sup>R$</sup>19</span>
@@ -82,7 +82,8 @@
       </ul>
       <a href="./">Comprar</a>
     </div>
-    <div>
+
+    <div class="preco-item">
       <h1>Prata</h1>
       <span><sup>R$</sup>39</span>
       <ul>
@@ -94,7 +95,8 @@
       </ul>
       <a href="./">Comprar</a>
     </div>
-    <div>
+
+    <div class="preco-item">
       <h1>Ouro</h1>
       <span><sup>R$</sup>79</span>
       <ul>
@@ -148,8 +150,10 @@
   </section>
 
   <footer class="footer">
-    <p>FlexBlog © Todos os direitos reservados.</p>
-    <p>Projeto desenvolvido junto ao curso da <a href="www.origamid.com">Origamid.</a></p>
+    <p>FlexBlog © Todos os direitos reservados.
+      <br>
+      Projeto desenvolvido junto ao curso da <a href="www.origamid.com">Origamid.</a>
+    </p>
   </footer>
 </body>
 

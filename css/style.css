@@ -5,3 +5,7 @@
 @import "./conteudo/header.css";
 @import "./conteudo/middle.css";
 @import "./conteudo/footer.css";
+
+/* planos */
+
+@import "./planos/planos.css";

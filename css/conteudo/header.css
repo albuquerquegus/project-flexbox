@@ -24,10 +24,6 @@
 
 /* menu */
 
-.menu-bg {
-  background: #2c70ff;
-}
-
 .menu {
   align-items: center;
   display: flex;
@@ -36,6 +32,10 @@
   padding: 15px 0;
   max-width: 960px;
   margin: 0 auto;
+}
+
+.menu-bg {
+  background: #2c70ff;
 }
 
 .menu a {
